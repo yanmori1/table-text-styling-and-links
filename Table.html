@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<body>   
+    <table cellspacing="4" cellpadding="4" border="3" bgcolor="#ffffff" style="margin-left: auto;margin-right: auto;">
+        <form>
+        <tr>
+            <td>
+                <table style="text-align: center;border: 3;border-color: #fefea8;">
+                    <tr bgcolor="yellow" style="color:red">
+                        <thead>
+                            <td colspan="2" style="background-color:#fefea8;color:red;text-align: center;font-size: 20pt;"><b>Registration Form</b></td>
+                        </thead>
+                    </tr>
+                    <tr bgcolor="#48cdff" style="width: 40%;">
+                        <td>
+                            <label for="Name">
+                                Enter Name
+                            </label>
+                        </td>
+                        <td style="text-align: left;">
+                            <input type="text" id="Name" /> 
+                        </td>
+                    <tr bgcolor="#48cdff">
+                        <td>
+                            <label for="Password">
+                                Enter Password
+                            </label>
+                        </td>
+                        <td style="text-align: left;">
+                            <input type="text" id="Password" /> 
+                        </td>
+                    </tr>
+                    <tr bgcolor="#48cdff">
+                        <td>
+                            <label for="Address">
+                                Enter Address
+                            </label>
+                        </td>
+                        <td style="text-align: left;"><textarea id="Address" name="Address" rows="4" cols="25"></textarea> 
+                        </td>
+                    </tr>
+                    <tr bgcolor="#48cdff" style="height: 100pt;">    
+                        <td>
+                            <label for="Sports">
+                                Select Game
+                            </label>
+                        </td>
+                        <td style="text-align: left;">
+                            <input type="checkbox" id="Hockey" name="Sports" value="Hockey" />
+                            <label for="Hockey">Hockey</label><br>
+                            <input type="checkbox" id="Football" name="Sports" value="Football" /> 
+                            <label for="Football">Football</label><br>
+                            <input type="checkbox" id="Badminton" name="Sports" value="Badminton" />
+                            <label for="Badminton">Badminton</label><br> 
+                            <input type="checkbox" id="Cricket" name="Sports" value="Cricket" />
+                            <label for="Cricket">Cricket</label><br> 
+                            <input type="checkbox" id="Volleyball" name="Sports" value="Volleyball" /> 
+                            <label for="Volleyball">Volleyball</label>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#48cdff">
+                        <td>
+                            <label for="Gender">
+                                Gender
+                            </label>
+                        </td>
+                        <td style="text-align: left;">
+                            <input type="radio" id="Male" name="Gender" value="Male" checked="checked" style="color-scheme: #e2599e;">
+                            <label for="Male">Male</label>
+                            <input type="radio" id="Female" name="Gender" value="Female">
+                            <label for="Female">Female</label>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#48cdff">
+                        <td>
+                            <label for="Age">Select ur age</label>
+                        </td>
+                        <td style="text-align: left;">
+                            <select name="Age" id="age">
+                                <option value="Select">Select</option>
+                                <option value="10-15">10-15</option>
+                                <option value="15-20">15-20</option>
+                                <option value="20-25">20-25</option>
+                                <option value="25-30">25-30</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#48cdff">
+                        <td>
+                            <label for="Photo">
+                                Select Photo
+                            </label>
+                        </td>
+                        <td>
+                            <label for="myfile"></label>
+                            <input type="file" id="myfile" name="my_file"><br><br>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#48cdff">
+                        <tfoot>
+                        <td colspan="2" bgcolor="#48cdff">
+                        <button type="button" style="height: 30pt;width: 100pt;" >Click Me</button>
+                        <button type="button" style="height: 30pt;width: 100pt;" >Reset</button>
+                        <button type="button" style="height: 30pt;width: 100pt;" >Submit Form</button>
+                        </td>
+                        </tfoot>
+                    </tr>
+                </tr>
+                </table>
+            </td>
+        </tr>
+        </form>
+    </table>
+</body>
+</html>
